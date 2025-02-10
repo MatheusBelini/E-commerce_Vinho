@@ -14,7 +14,7 @@ export default function App () {
     <NavigationContainer >
       <Abas.Navigator screenOptions={{
         headerStyle:{
-          backgroundColor: '#400303'
+          backgroundColor: '#808080'
         },
         headerTitleStyle: {
           color: '#fff',
@@ -29,9 +29,9 @@ export default function App () {
           fontSize: 14,
           fontWeight: "bold"
         },
-        tabBarActiveTintColor: '#fff',
-        tabBarInactiveTintColor: "#ab887c",
-        tabBarActiveBackgroundColor: "#400303",
+        tabBarActiveTintColor: '#000000',
+        tabBarInactiveTintColor: "#808080",
+        tabBarActiveBackgroundColor: "#808080",
       }}>
         <Abas.Screen
           name="Início"

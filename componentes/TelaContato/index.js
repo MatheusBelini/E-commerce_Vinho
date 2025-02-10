@@ -5,8 +5,8 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 const Contact = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Contato</Text>
-      <Text style={styles.subtitle}>Entre em contato conosco para comprar nossos produtos</Text>
+      <Text style={styles.title}>conhecimentos sobre o clube</Text>
+      <Text style={styles.subtitle}>Quer saber mais sobre esse grupo histórico </Text>
 
       <TouchableOpacity style={styles.contactItem}>
         <View>
@@ -14,24 +14,24 @@ const Contact = () => {
         </View>
         
         <View>
-          <Text style={styles.contactLabel}>Telefone:</Text>
-          <Text style={styles.contactInfo}>+55 1599012457</Text>
+          <Text style={styles.contactLabel}>seja um sócio torcedor</Text>
+          <Text style={styles.contactInfo}>https://sociorei.com/fale-conosco</Text>
         </View>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.contactItem}>
         <Icon name="map-marker" size={30} color="#333" style={styles.icon} />
         <View>
-          <Text style={styles.contactLabel}>Endereço:</Text>
-          <Text style={styles.contactInfo}>Ar. 123, 222 - CASA DE GUILHERME</Text>
+          <Text style={styles.contactLabel}>Endereço da vila belmiro:</Text>
+          <Text style={styles.contactInfo}>Rua Princesa Isabel, S/N, Vila Belmiro</Text>
         </View>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.contactItem}>
         <Icon name="envelope" size={30} color="#333" style={styles.icon} />
         <View>
-          <Text style={styles.contactLabel}>Email:</Text>
-          <Text style={styles.contactInfo}>GUILHERME.LADINO.com.br</Text>
+          <Text style={styles.contactLabel}> Whatssap:</Text>
+          <Text style={styles.contactInfo}>(13) 3257-4001</Text>
         </View>
       </TouchableOpacity>
 
@@ -39,7 +39,7 @@ const Contact = () => {
         <Icon name="instagram" size={30} color="#333" style={styles.icon} />
         <View>
           <Text style={styles.contactLabel}>Instagram:</Text>
-          <Text style={styles.contactInfo}>@adegapreferida</Text>
+          <Text style={styles.contactInfo}>@SANTOS FC</Text>
         </View>
       </TouchableOpacity>
     </View>

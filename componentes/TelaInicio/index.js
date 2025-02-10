@@ -4,7 +4,7 @@ import { View, Text, ImageBackground } from 'react-native'
 
 import styles from './estilo' // Ajuste o caminho conforme necessário
 
-const backgroundImage = require('../../assets/capa.jpg') // Ajuste o caminho conforme necessário
+const backgroundImage = require('../../assets/santos.jpg') // Ajuste o caminho conforme necessário
 
 const Index = () => {
   return (
@@ -13,8 +13,8 @@ const Index = () => {
       style={styles.background}
     >
       <View style={styles.container}>
-        <Text style={styles.titulo}>Adega Preferida</Text>
-        <Text style={styles.subtitulo}>Aqui você encontra os melhores e mais saborosos vinhos</Text>
+        <Text style={styles.titulo}>Santástico</Text>
+        <Text style={styles.subtitulo}>aqui voçe vai conhecer um pouco sobre o clube da baixada santista</Text>
       </View>
     </ImageBackground>
   )

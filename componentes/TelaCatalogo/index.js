@@ -212,9 +212,9 @@ const App = () => {
     <ScrollView>
       <View style={styles.container}>
         <View style={styles.content}>
-          <Text style={styles.title}>Nossos vinhos</Text>
+          <Text style={styles.title}>um pouco dos grandes craques desse clube </Text>
           <Text style={styles.subtitle}>
-            Trabalhamos com o melhor vinho dos seguintes tipos: Vinho branco, vinho rosé, vinho tinto e vinho seco.
+          O Santos Futebol Clube é um dos maiores times do Brasil, com isso teve varios jogadores em sua história 
           </Text>
           
           <View style={styles.wineItem}>
